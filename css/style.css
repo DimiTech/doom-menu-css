@@ -80,6 +80,16 @@ main {
     color-stop(.75, rgba(255, 255, 255, 0.2)),
     color-stop(.75, transparent), to(transparent)
   );
+  background-image: -moz-linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, .2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, .2) 50%,
+    rgba(255, 255, 255, .2) 75%,
+    transparent 75%,
+    transparent
+  );
   background-size: 40px;
   -webkit-animation: move 2s linear infinite;
   -moz-animation: move 2s linear infinite;
