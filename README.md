@@ -1,7 +1,7 @@
 iPukeArt's "Doom 3 UI Codex Menu Concept" re-made in the browser:
 
 Demo:
-https://dusandimitric/doom-menu-css/
+https://dusandimitric.com/doom-menu-css/
 
 ## Resources:
 
