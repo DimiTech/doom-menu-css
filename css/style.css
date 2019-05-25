@@ -37,7 +37,6 @@ main {
 
 .bg-image {
   position: fixed;
-  /* z-index: -1; */
   background: 
     linear-gradient(
       rgba(97, 48, 22, 0.65), 
@@ -72,13 +71,15 @@ main {
 .spinner {
   width: 280px;
   height: 40px;
-  background-image: -webkit-gradient(
-    linear, 0 0, 100% 100%,
-    color-stop(.25, rgba(255, 255, 255, .2)),
-    color-stop(.25, transparent), color-stop(.5, transparent),
-    color-stop(.5, rgba(255, 255, 255, .2)),
-    color-stop(.75, rgba(255, 255, 255, 0.2)),
-    color-stop(.75, transparent), to(transparent)
+  background-image: -webkit-linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, .2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, .2) 50%,
+    rgba(255, 255, 255, .2) 75%,
+    transparent 75%,
+    transparent
   );
   background-image: -moz-linear-gradient(
     -45deg,
@@ -90,7 +91,7 @@ main {
     transparent 75%,
     transparent
   );
-  background-size: 40px;
+  background-size: 40px 40px;
   -webkit-animation: move 2s linear infinite;
   -moz-animation: move 2s linear infinite;
 }
