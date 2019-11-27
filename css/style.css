@@ -42,7 +42,7 @@ main {
       rgba(97, 48, 22, 0.65), 
       rgba(97, 48, 22, 0.65)
     ),
-    url('../img/mars.jpg');
+    url('../img/mars-min.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -226,30 +226,30 @@ main {
 }
 
 .card-item-wrapper:nth-of-type(1) > .card-item {
-  background-image: url(../img/characters/doom-01.png);
+  background-image: url(../img/characters/doom-01-min.png);
   background-size: 180%;
   background-position-y: 10px;
   background-position-x: -34px;
 }
 .card-item-wrapper:nth-of-type(2) > .card-item {
-  background-image: url(../img/characters/doom-02.png);
+  background-image: url(../img/characters/doom-02-min.png);
   background-size: 220%;
   background-position-x: -60px;
 }
 .card-item-wrapper:nth-of-type(3) > .card-item {
-  background-image: url(../img/characters/doom-03.png);
+  background-image: url(../img/characters/doom-03-min.png);
   background-size: 220%;
   background-position-y: 6px;
   background-position-x: -90px;
 }
 .card-item-wrapper:nth-of-type(4) > .card-item {
-  background-image: url(../img/characters/doom-04.png);
+  background-image: url(../img/characters/doom-04-min.png);
   background-size: 220%;
   background-position-y: 6px;
   background-position-x: -60px;
 }
 .card-item-wrapper:nth-of-type(5) > .card-item {
-  background-image: url(../img/characters/doom-05.png);
+  background-image: url(../img/characters/doom-05-min.png);
   background-size: 240%;
   background-position-y: -10px;
   background-position-x: -65px;
