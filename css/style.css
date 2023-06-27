@@ -141,6 +141,7 @@ main {
   padding: 6px;
   margin: 14px 8px; /* The 8px vertical margin is very precisely set! */
   transform: scale(1.2);
+  cursor: pointer;
 }
 .card-item-wrapper:hover > .card-item-edge-NE,
 .card-item-wrapper:hover > .card-item-edge-NW,
